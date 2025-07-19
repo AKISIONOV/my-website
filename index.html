@@ -126,6 +126,18 @@
       </div>
     </div>
   </section>
+  <div style="position: fixed; bottom: 0; left: 0; background: #000; color: #fff; z-index: 9999; padding: 5px 10px;">
+  <span id="screen-size"></span>
+</div>
+<script>
+  const span = document.getElementById('screen-size');
+  function updateSize() {
+    span.textContent = `${window.innerWidth}px`;
+  }
+  window.addEventListener('resize', updateSize);
+  updateSize();
+</script>
+
 
   <script src="script.js"></script>
 </body>

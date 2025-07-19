@@ -3,8 +3,9 @@ const menuToggle = document.getElementById('menu-toggle');
 const navLinksContainer = document.querySelector('.nav-links');
 
 menuToggle.addEventListener('click', () => {
-  navLinksContainer.classList.toggle('show');
+  navLinksContainer.parentElement.classList.toggle('active');
 });
+
 
 // Contact form submission (simulate)
 document.getElementById('contact-form').addEventListener('submit', function (e) {
