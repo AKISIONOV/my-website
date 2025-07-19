@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manoj Sundar Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">MyPortfolio</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+    </div>
+  </header>
+
+  
+
+  <!-- Home Section -->
+  <section id="home" class="home-section reveal">
+    <div class="home-content">
+      <h2>Hi, I'm <span class="highlight">Manoj Sundar.P</span></h2>
+      <p>Aspiring Web Developer with a passion for clean design and performance-driven code.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+     <!-- Portfolio Image -->
+      
+  </section>
+
+  <!-- About Section -->
+<section id="about" class="about-section reveal">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      
+      <!-- Portfolio Image -->
+      <div class="about-image">
+        <img src="sundar.png" alt="Manoj Sundar Portfolio Image" />
+      </div>
+
+      <!-- About Text -->
+      <div class="about-text">
+        <p>Hello! I'm <strong>Manoj Sundar.P</strong>, a passionate front-end developer who transforms ideas into interactive web interfaces. I specialize in clean HTML, modern CSS, and intuitive JavaScript. With a strong design sense and a goal to deliver pixel-perfect, responsive sites, I bring visions to life on screen.</p>
+        <p>Though this portfolio is fictional, it reflects the mindset of someone dedicated to continuous learning, innovation, and building impactful user experiences.</p>
+        <p>My core strengths lie in <span class="highlight">responsive design</span>, <span class="highlight">UI/UX principles</span>, and a love for smooth scroll interactions. I thrive on creating elegant yet functional websites tailored for the modern web.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section reveal">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <h3 class="project-title">Smart Waste Tracker</h3>
+          <p class="project-desc">An IoT-powered web dashboard that monitors urban waste bins and alerts municipal staff in real-time. Built with HTML, CSS, and vanilla JS.</p>
+          <span class="project-tag">IoT</span>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <h3 class="project-title">AI Portfolio Analyzer</h3>
+          <p class="project-desc">A tool that uses AI prompts to evaluate portfolios based on visual hierarchy, readability, and responsiveness.</p>
+          <span class="project-tag">AI</span>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <h3 class="project-title">FreelancerKit</h3>
+          <p class="project-desc">A fictional SaaS tool designed for freelancers to manage leads, track time, and auto-generate invoices through a sleek UI.</p>
+          <span class="project-tag">Web App</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section reveal">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your full name" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required rows="5" placeholder="Your message here..."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3 class="contact-info-title">Or reach me directly:</h3>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:manojsundar2022ai@gmail.com">manojsundar2022ai@gmail.com</a></li>
+          <li><strong>WhatsApp:</strong> <a href="https://wa.me/918270659951" target="_blank">+91 8270659951</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
